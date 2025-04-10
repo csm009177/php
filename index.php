@@ -1,3 +1,8 @@
-<!-- 진입점 -->
-<?php 
-require_once(dirname(__FILE__) ."public/index.php");
+<?php // controller
+
+require_once(dirname(__FILE__) ."/models/model.php");
+require_once(dirname(__FILE__) ."/views/index.php");
+
+
+
+?>
